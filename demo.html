@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<title>javascript 3D图片叠加旋转切换</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/jsMovePic.js" ></script>
+</head>
+<body>
+	<div id="top">
+		<div class="small">
+			<ul>
+				<li class="" style="opacity: 0.4;"><img src="./images/01.jpg"></li>
+				<li class="" style="opacity: 0.4;"><img src="./images/02.jpg"></li>
+				<li class="" style="opacity: 0.4;"><img src="./images/03.jpg"></li>
+				<li class="" style="opacity: 0.4;"><img src="./images/04.jpg"></li>
+				<li class="" style="opacity: 0.55;"><img src="./images/05.jpg"></li>
+				<li class="hove" style="opacity: 0.85;"><img src="./images/06.jpg"></li>
+				<li class="" style="opacity: 0.4;"><img src="./images/07.jpg"></li>
+				<li class="" style="opacity: 0.4;"><img src="./images/08.jpg"></li>
+				<li class="" style="opacity: 0.4;"><img src="./images/09.jpg"></li>
+			</ul>
+		</div>
+	</div>
+	<div id="box">
+		<!-- <div class="bg"></div> -->
+		<div id="list">
+			<ul>
+				<li class="">
+					<img src="./images/01(1).jpg">
+					<div style="opacity: 0.75;"></div>
+					<p class="b_tit" style="bottom: -120px; ">
+						<span class="opacity"></span>
+						<span class="tit">
+							<span>
+								蒙其·D·路飞 <em>草帽海贼团【船长】</em>
+							</span> <em>恶魔果实：橡胶果实
+								<br>悬赏：3千万（可可亚西村事件）→1亿（阿拉巴斯坦事件）→3亿（司法岛事件)→4亿（顶上战争后）</em>
+						</span>
+					</p>
+				</li>
+				<li class="">
+					<img src="./images/02(1).jpg">
+					<div style="opacity: 0.75;"></div>
+					<p class="b_tit">
+						<span class="opacity"></span>
+						<span class="tit">
+							<span>
+								罗罗诺亚·索隆
+								<em>草帽海贼团【剑士】</em>
+							</span>
+							<em>悬赏：6千万（阿拉巴斯坦事件）→1亿2000万（司法岛事件）</em>
+						</span>
+					</p>
+				</li>
+				<li class="">
+					<img src="./images/03(1).jpg">
+					<div style="opacity: 0.75;"></div>
+					<p class="b_tit" style="bottom: -120px; ">
+						<span class="opacity"></span>
+						<span class="tit">
+							<span>
+								娜美
+								<em>草帽海贼团【航海士】</em>
+							</span>
+							<span>悬赏：1600万（司法岛事件）</span>
+						</span>
+					</p>
+				</li>
+				<li class="">
+					<img src="./images/04(1).jpg">
+					<div style="opacity: 0.75;"></div>
+					<p class="b_tit">
+						<span class="opacity"></span>
+						<span class="tit">
+							<span>
+								乌索普
+								<em>草帽海贼团【狙击手】</em>
+							</span>
+							<em>悬赏：3000万（司法岛事件）</em>
+						</span>
+					</p>
+				</li>
+				<li class="">
+					<img src="./images/05(1).jpg">
+					<div style="opacity: 0.56;"></div>
+					<p class="b_tit" style="bottom: -120px; ">
+						<span class="opacity"></span>
+						<span class="tit">
+							<span>
+								香吉士
+								<em>草帽海贼团【厨师】</em>
+							</span>
+							<em>悬赏：7700万（司法岛事件）</em>
+						</span>
+					</p>
+				</li>
+				<li class="hove">
+					<img src="./images/06(1).jpg">
+					<div style="opacity: 0.75;"></div>
+					<p class="b_tit">
+						<span class="opacity"></span>
+						<span class="tit">
+							<span>
+								托尼托尼·乔巴
+								<em>草帽海贼团【船医】</em>
+							</span>
+							<em>恶魔果实：动物系人人果实
+								<br>悬赏：50贝利（司法岛事件）</em>
+						</span>
+					</p>
+				</li>
+				<li class="">
+					<img src="./images/07(1).jpg">
+					<div style="opacity: 0.75;"></div>
+					<p class="b_tit">
+						<span class="opacity"></span>
+						<span class="tit">
+							<span>
+								弗兰奇
+								<em>草帽海贼团【船匠】</em>
+							</span>
+							<em>悬赏：4400万贝利（司法岛事件）</em>
+						</span>
+					</p>
+				</li>
+				<li class="">
+					<img src="./images/08(1).jpg">
+					<div style="opacity: 0.75;"></div>
+					<p class="b_tit">
+						<span class="opacity"></span>
+						<span class="tit">
+							<span>
+								布鲁克
+								<em>草帽海贼团【音乐家】</em>
+							</span>
+							<em>
+								恶魔果实：超人系黄泉果实
+								<br>悬赏：3300万贝利</em>
+						</span>
+					</p>
+				</li>
+				<li class="">
+					<img src="./images/09(1).jpg">
+					<div style="opacity: 0.75;"></div>
+					<p class="b_tit">
+						<span class="opacity"></span>
+						<span class="tit">
+							<span>
+								妮可·罗宾
+								<em>草帽海贼团【考古学家】</em>
+							</span>
+							<em>
+								恶魔果实：超人系花花果实
+								<br>悬赏：7900万贝利（奥哈拉事件）→8000万贝利（司法岛事件）</em>
+						</span>
+					</p>
+				</li>
+			</ul>
+			<a class="prev" href="javascript:;"></a>
+			<a class="next" href="javascript:;"></a>
+		</div>
+	</div>
+</body>
+</html>
